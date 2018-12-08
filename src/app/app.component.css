@@ -1,13 +1,16 @@
-textarea {
-  width: 90%;
-  height: 90%;
-  white-space: normal;
-  resize: none;
-  line-height: 2;
-}
 main {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
+}
+
+.content-full {
+  width: 90%;
+  height: 90%;
+  white-space: normal;
+  resize: none;
+  line-height: 2;
+  border: 1px solid black;
+  padding: 7px;
 }

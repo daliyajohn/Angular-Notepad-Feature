@@ -1,1 +1,19 @@
-<main><textarea></textarea></main>
+<main>
+  <!--
+    <textarea #box (keyup.enter)="onEnter(box.value)">
+          {{ value }}
+      </textarea
+    >
+  -->
+  <!--
+    <textarea id="myList" #box (keyup.enter)="onEnter(box.value, $event)">
+    </textarea>
+  -->
+
+  <div
+    id="myList"
+    class="content-full"
+    contenteditable="true"
+    (keyup.enter)="onEnter(value, $event)"
+  ></div>
+</main>
